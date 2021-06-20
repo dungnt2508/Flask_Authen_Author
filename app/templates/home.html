@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Tool Sicbo version 1
+</h1>
+<h2 class="subtitle">
+  {% if not current_user.is_authenticated %}
+	  <a href="{{ url_for('bp.login')}}">Bạn chưa login . Click để login</a>
+	{% else %}
+		{{ current_user.name }} login thành công
+	{% endif %}
+</h2>
+
+{% endblock %}

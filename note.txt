@@ -1,0 +1,19 @@
+Ý tưởng build một website thống kê, phân tích, dự đoán trò chơi sicbo/tài xỉu
+
+Step 1 :
++ create template :
+    - base.html
+    - home.html     # page home
+    - login.html    # page login user
+    - signup.html   # page register user
+    - profile.html  # page profile user
+
++ create auth.py : manage authen & author user
+
++ create main.py : manage page this site
+
++ db.py : manage database
+
++ models.py : manage objects
+
+
